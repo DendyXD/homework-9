@@ -1,0 +1,25 @@
+div {
+    width: 100px;
+    color: red;
+    background-color: red;
+    height: 100px;
+    animation-name: cube;
+    animation-duration: 5s;
+    animation-timing-function: 0.5s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-direction: normal;
+    margin: 70px;
+}
+
+@keyframes cube{
+    25% {transform: translateY(150px); background-color: blue;}
+
+    50% {transform: translate(150px, 150px); background-color: green;}
+
+    75% {transform: translate(150px, 0px); background-color: yellow;}
+
+    100% {transform: translate(-0px, 0px); background-color: red;}
+
+}
